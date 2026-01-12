@@ -154,7 +154,7 @@ const App = () => {
           </p>
           <div className="hero-cta">
             <button className="btn btn-primary">Launch App</button>
-            <button className="btn btn-secondary">View Contract</button>
+            <a href="https://solscan.io/token/GcLyHDibArZk79BdeztQ4rvY881vFpZmmrRzsS4kpump" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">View Contract</a>
           </div>
         </div>
       </section>
@@ -313,11 +313,15 @@ const App = () => {
             </div>
             <div className="token-item">
               <span className="token-label">Chain</span>
-              <span className="token-value">TBD</span>
+              <span className="token-value">Solana</span>
             </div>
             <div className="token-item">
-              <span className="token-label">Supply</span>
-              <span className="token-value">TBD</span>
+              <span className="token-label">Contract Address</span>
+              <span className="token-value" style={{ fontSize: '0.85rem', wordBreak: 'break-all' }}>
+                <a href="https://solscan.io/token/GcLyHDibArZk79BdeztQ4rvY881vFpZmmrRzsS4kpump" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--neon-green)', textDecoration: 'none' }}>
+                  GcLyHDibArZk79BdeztQ4rvY881vFpZmmrRzsS4kpump
+                </a>
+              </span>
             </div>
           </div>
           <p className="disclaimer">
