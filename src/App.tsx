@@ -323,6 +323,14 @@ const App = () => {
                 </a>
               </span>
             </div>
+            <div className="token-item">
+              <span className="token-label">Contract Address 2</span>
+              <span className="token-value" style={{ fontSize: '0.85rem', wordBreak: 'break-all' }}>
+                <a href="https://solscan.io/token/BdSa7s3STALir6LaW5hzvx39hJNio7DXk8ofCgQBbonk" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--neon-green)', textDecoration: 'none' }}>
+                  BdSa7s3STALir6LaW5hzvx39hJNio7DXk8ofCgQBbonk
+                </a>
+              </span>
+            </div>
           </div>
           <p className="disclaimer">
             No promises, just transparency.
